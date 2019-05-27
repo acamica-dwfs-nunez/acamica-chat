@@ -4,7 +4,7 @@ const uuid = require('uuid/v4')
 const PORT = process.env.PORT || 5000
 
 const server = http.createServer((request, response) => {
-  res.end('ws server only')
+  response.end('ws server only')
 })
 
 server.listen(PORT, function() {})
