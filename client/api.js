@@ -1,5 +1,5 @@
 window.userdata = {}
-const socket = new WebSocket('ws://localhost:5000')
+const socket = new WebSocket('ws://chat-acamica.herokuapp.com/')
 
 const loadscreen = document.getElementById('loading')
 const login = document.getElementById('login')
