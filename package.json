@@ -1,0 +1,19 @@
+{
+  "name": "remate-observable",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Leonel Vieyra",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 start main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "pm2": "^3.5.0",
+    "rauter": "^0.1.4",
+    "uuid": "^3.3.2",
+    "websocket": "^1.0.28"
+  }
+}
